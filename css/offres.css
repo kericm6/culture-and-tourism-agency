@@ -1,0 +1,27 @@
+.offres_banner{
+    background: linear-gradient(rgba(17, 69, 128, 0.356),#000000bb),url(../images/offers.jpg);
+    height: 40vh;
+    background-position: top ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offres_banner p{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--blanc);
+    font-family: 'font2';
+    word-spacing: 20px;
+    margin-top: 40px;
+}
+
+section.content{
+    padding: 0 10px;
+    margin-top: 70px;
+}
+section.content p{
+   font-size: 20px;
+   text-align: center;
+}

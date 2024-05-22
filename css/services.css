@@ -1,0 +1,192 @@
+.services_banner{
+    background: linear-gradient(rgba(17, 69, 128, 0.356),#000000bb),url(../images/services.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_banner p{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--blanc);
+    font-family: 'font2';
+    word-spacing: 20px;
+}
+
+section.content{
+    padding: 0 70px;
+    margin-top: 50px;
+}
+
+section.content .services_header a.btn{
+    background: var(--bleu);
+    color: var(--blanc);
+}
+
+section.content .services_items .services-row .services-col .text{
+    text-align: justify;
+    /* position: relative;
+    top: -40px; */
+
+}
+section.content .services_items .services-row .services-col{
+    /* display: flex; */
+    background: rgba(17, 69, 128, 0.247);
+    padding: 20px 15px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 50px;
+}
+section.content .services_items .services-row .services-col .header i{
+    font-size: 60px;
+    /* height: 20px;
+    width: 20px; */
+    position: absolute  ;
+    display: inline-block;
+    top: -50px;
+    left: 10px;
+}
+section.content .services_items .services-row .services-col .header {
+    /* font-size: 70px; */
+    
+    color: var(--rouge);
+    /* height: 40vh; */
+}
+section.content .services_items .services-row .services-col .text span{
+    color: var(--bleu);
+    font-family: 'font2';
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section.offre{
+    padding: 0 70px;
+}
+section.offre .row .col h1{
+    font-weight: bold;
+    color: var(--bleu);
+    font-family: 'font2';
+}
+
+section.offre .row .col ul li{
+    /* margin-top: 10px; */
+    color: var(--bleu);
+    font-weight: bold;
+}
+section.offre .row .col ul li i{
+    color: var(--rouge);
+    margin-right: 15px;
+}
+section.offre .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* section.offre .row .col .row .col{
+    height: auto;
+    width: auto;
+} */
+section.offre .row .col .row .col a img{
+    width: 50px;
+    object-fit: cover;
+}
+
+section.offer{
+    background: linear-gradient(rgba(17, 69, 128, 0.658),rgba(17, 69, 128, 0.685)), url(../images/offer.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 150px; */
+    font-family: 'font2';
+}
+section.offer p{
+    text-align: center;
+    width: 50%;
+    color: var(--blanc);
+}
+section.offer a.btn{
+    background-color: var(--bleu2);
+    color: var(--blanc);
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive*/
+
+@media screen and (max-width: 480px){
+    .services_banner{
+        height: 30vh;
+        
+    }
+    .services_banner p{
+        font-size: 20px;
+    }
+
+    section.content{
+        padding: 0 15px !important;
+        margin-top: 0 !important  ;
+    }
+    section.content .services_header{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;align-items: center;
+        text-align: justify;
+        width: 100%;
+    }
+    section.content .services_header p{
+        width: 100% !important  ;
+    }
+    .services_items .services-row{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    section.offre{
+        padding: 0 15px;
+    }
+    section.offre .row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+    }
+    section.offre .row .col{
+        padding: 0 0;
+    }
+    
+    section.offre .row .col h1{
+        margin-top: 10px;
+    }
+    section.offre .row .col:last-child .row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    section.offer p{
+        text-align: center;
+        width: 100%;
+        color: var(--blanc);
+    }
+}

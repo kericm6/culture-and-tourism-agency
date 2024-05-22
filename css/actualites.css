@@ -1,0 +1,21 @@
+.actualites_banner{
+    background: linear-gradient(rgba(17, 69, 128, 0.356),#000000bb),url(../images/actualites2.jpg);
+    height: 40vh;
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.content{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+section.content p{
+    font-size: 20px;
+}
