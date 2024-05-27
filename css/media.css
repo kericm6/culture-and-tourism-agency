@@ -32,6 +32,10 @@
     filter: drop-shadow(3px 3px 3px #ccc);
 }
 
+.medias video{
+    width: 230px;
+    border: none;
+}
 
 /* responsive*/ 
 
@@ -56,8 +60,30 @@
         width: 100%;
         margin-bottom: 20px ;
     }
-    .medias  p.small{
+    .medias  p.small
+    {
         margin-bottom: 15px!important;
+    }
+
+    .medias .videos_row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0 15px !important; */
+        margin: 0;
+        /* width: 100%; */
+    }
+    .img{
+        width: 100%;
+    }
+    .medias .videos_row .col{
+        width: 100%;
+        padding: 0 0px !important;
+        margin: 0;
+    }
+    .medias .videos_row video{
+        width: 100%;  
+        margin: 0;  
     }
 }
 
