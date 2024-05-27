@@ -77,10 +77,13 @@
     }
 
     section.mission .row .col_grid{
-        display: grid;
-        grid-template-columns: 1fr;
+        /* display: grid;
+        grid-template-columns: 1fr; */
     }
 
+    section.mission .row .col:last-child .row .col .texte h1.mission1{
+        margin-left: 10px;
+    }
   
     section.decouverte .row{
         display: flex;
@@ -185,7 +188,7 @@
 }
 
 @media (max-width: 767px){
-    .menu {
+   header .menu {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -228,6 +231,12 @@
         justify-content: center;
         gap: 10px;
         text-decoration: none;
+        position: sticky;
+        top: 8%;
+        left: 0;
+        background: #fff;
+        z-index: 500;
+        box-shadow: 2px 2px 3px #ccc;
     }
 
     .resaux_mobile > a{

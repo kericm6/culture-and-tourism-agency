@@ -26,7 +26,7 @@ header {
     color: var(--blanc);
     padding-left: 2em;
     padding-right: 2rem;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     left: 0;
     z-index: 2000;
@@ -35,14 +35,9 @@ header {
 
 /* menu icon */
 
-.menu{
-    display: none;
-}
 
-.trans{
-    font-size: 40px !important;
-    transition: all .7s !important;
-}
+
+
 /*logo*/
 
 header .logo p {
@@ -54,6 +49,24 @@ header .logo p {
 header nav {
     width: 100%;
 }
+
+/***** 
+
+reaseaux
+**/
+
+.resaux_mobile{
+    
+    display: none;
+}
+
+header .menu{
+    display: none;
+}
+
+
+/*** fin ***/
+
 
 header nav .infos {
     display: flex;
@@ -113,7 +126,9 @@ header nav .liens .actions a:first-child {
 header nav .liens .actions a:first-child i {
     color: black;
 }
-
+header nav .liens .actions .menu{
+    display: none;
+}
 header nav .liens .actions .menu a {
     display: block;
     font-size: 30px;
@@ -356,10 +371,20 @@ section.mission .row .col:last-child .row .col .chiffre {
     font-size: 50px;
     font-family: "font2";
     color: var(--bleu2);
+    
 }
-
+section.mission .row .col:last-child .row{
+    /* background-color: aqua; */
+    /* width: 100%; */
+    margin: 0;
+    
+}
 section.mission .row .col:last-child .row .col {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
     gap: 10px;
+
 }
 
 section.mission .row .col:last-child .row .col .texte {
