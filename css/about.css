@@ -1,6 +1,6 @@
 .about_banner{
     background: linear-gradient(rgba(17, 69, 128, 0.356),#000000bb),url(../images/about.jpg);
-    height: 70vh;
+    height: 40vh;
     background-position:  center;
     background-size: cover;
     display: flex;
@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.about_content{
+    height: 40vh;
+    font-size: 40px;
+}
 .about_banner p{
     text-transform: uppercase;
     font-size: 40px;
@@ -67,4 +71,6 @@ section.pdf a {
         font-family: 'font2';
         font-weight: bold;
     }
+
+   
 }
