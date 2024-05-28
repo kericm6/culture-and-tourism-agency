@@ -19,7 +19,7 @@
 body {
     font-family: "font1";
     z-index: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
