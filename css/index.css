@@ -19,7 +19,6 @@
 body {
     font-family: "font1";
     z-index: 0;
-    overflow-x: hidden !important;
 }
 
 header {
@@ -290,7 +289,7 @@ section.services .row .col .item {
 
 /* service item1*/
 section.services .row .col .item1 {
-    background: linear-gradient(rgba(255, 255, 255, 0.096), rgba(17, 69, 128, 0.822)), url(../images/hotels.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.096), rgba(17, 69, 128, 0.822)), url(../images/img6.jpg);
     background-position: center;
     background-size: cover;
     height: 250px;
