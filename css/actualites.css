@@ -18,7 +18,7 @@
 
 .last_live .row{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr) !important;
 }
 .last_live h1{
     font-weight: bold;
