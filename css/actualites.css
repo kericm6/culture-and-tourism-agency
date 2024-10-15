@@ -18,7 +18,7 @@
 
 .last_live .row{
     display: grid;
-    grid-template-columns: repeat(4,1fr) !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .last_live h1{
     font-weight: bold;
@@ -30,4 +30,27 @@
 }
 section.content p{
     font-size: 20px;
+}
+
+@media screen and (min-width: 320px){
+    .last_live .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .resaux_mobile{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .vid{
+        /* margin-right: 0 500px;
+        display: none; */
+    }
+    .vid iframe{
+        margin: 0 30px;
+        margin-bottom: 0;
+        height: 400px !important;
+    }
 }
